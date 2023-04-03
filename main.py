@@ -6,7 +6,7 @@ b = int(input("Enterrb:"))
 c = int(input("Enterrc:"))
 
 def funkcija_parametri():
-  x = np.arange(1, 21)
+  x = np.arange(1, 20)
   x = np.linspace(-10, 10, 1000)
   y = a * x **2 + b * x + c
   plt.title("Line graph")
